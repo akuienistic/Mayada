@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     rollupOptions: {
-      external: ["aos/dist/aos.css"],
+      external: ["aos", "aos/dist/aos.css"],
     },
   },
 }));
