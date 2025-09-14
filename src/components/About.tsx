@@ -38,7 +38,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gradient-soft" data-aos="fade-up">
+  <section id="about" className="py-20 bg-gradient-soft">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}

@@ -8,13 +8,13 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <div id="hero" data-aos="fade-up">
+  <div id="hero">
         <Hero />
       </div>
-      <div id="services" data-aos="fade-up" data-aos-delay="100">
+  <div id="services">
         <Services />
       </div>
-      <div id="about" data-aos="fade-up" data-aos-delay="200">
+  <div id="about">
         <About />
       </div>
       <Footer />
